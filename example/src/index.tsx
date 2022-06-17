@@ -35,11 +35,17 @@ import UseUpdateNodeInternals from './UseUpdateNodeInternals';
 import UseReactFlow from './UseReactFlow';
 import Validation from './Validation';
 import UseKeyPress from './UseKeyPress';
+import TangledTree from './TangledTree'
 
 const routes = [
   {
     path: '/',
     component: Overview,
+  },
+  {
+    path: '/tangled_tree',
+    component: TangledTree,
+
   },
   {
     path: '/basic',
